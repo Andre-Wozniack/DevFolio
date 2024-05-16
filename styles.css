@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+header {
+    position: relative;
+    height: 100vh;
+    background: url('images/') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+header nav {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.intro, .projects, .about, .contact {
+    margin-bottom: 60px;
+}
+.projects a, .contact a {
+    color: #0073e6;
+    text-decoration: none;
+}
+.project-item {
+    margin-bottom: 20px;
+}
+.project-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.intro img {
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 20px;
+    filter: blur(4px);
+}
+.intro img:hover {
+    filter: blur(0);
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Parallax Effect */
+.parallax {
+    background-attachment: fixed;
+}
+/* Button for more projects */
+.btn-more-projects {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
