@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Vogue';
+    src: url('fonts/Vogue.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('fonts/bebas_neue/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url('fonts/lemon_milk/LEMONMILK-Regular.otf') format('truetype');
+}
+
+
+
+/* Reset básico para remover margens e padding padrões */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 200px; /* Ajusta conforme a necessidade */
+    font-family: 'Lemon Milk', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+section {
+    padding: 15px; /* Adiciona um padding interno em todas as seções */
+    text-align: justify; /* Alinha o texto justificado */
+}
+
+.idealizador {
+    color: #666;
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Lemon Milk', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify; /* Justifica o texto */
+}
+
+
+header {
+    background-color: #8B4513;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Vogue', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+header nav ul li a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px; /* Ajuste o tamanho conforme necessário */
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #8B4513; /* Cor marrom para a barra de navegação */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header nav {
+    margin-left: auto; /* Empurra a navegação para a direita */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 800px; /* Limita a largura para melhorar a leitura */
+    margin: 20px auto; /* Centraliza o main no meio da página */
+}
+
+section#historia p {
+    text-align: justify; /* Justifica o texto para uma leitura mais fluida */
+    margin-bottom: 15px; /* Adiciona espaço entre os parágrafos */
+    line-height: 1.8; /* Aumenta a altura da linha para melhorar a legibilidade */
+}
+
+section#historia h3 {
+    margin-top: 20px;
+    color: #333; /* Escolha uma cor que combine com o design do site */
+    font-size: 1.2em; /* Tamanho maior para subtítulos */
+}
+
+section#programa-de-ensino p {
+    text-align: justify; /* Justifica o texto para uma leitura mais fluida */
+    margin-bottom: 15px; /* Adiciona espaço entre os parágrafos */
+    line-height: 1.8; /* Aumenta a altura da linha para melhorar a legibilidade */
+
+}
+section#programa-de-ensino h3 {
+    margin-top: 20px;
+    color: #333; /* Escolha uma cor que combine com o design do site */
+    font-size: 1.2em; /* Tamanho maior para subtítulos */
+}
+
+.dual-column {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Espaço entre as seções e o conteúdo abaixo */
+}
+
+.dual-column > section {
+    flex: 1; /* Faz com que cada seção ocupe metade do espaço disponível */
+    margin-right: 10px; /* Espaço entre as duas colunas */
+}
+
+.dual-column > section:last-child {
+    margin-right: 0; /* Remove a margem direita da última seção */
+}
+
+
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 20px 50px; /* Adiciona padding para não colar nas bordas */
+    font-size: 14px;
+}
+
+footer .idealizador {
+    font-size: 0.8em; /* Tamanho menor para o texto do idealizador */
+    color: #ccc; /* Cor acinzentada para diferenciar */
+    margin-top: 20px; /* Espaço antes do texto do idealizador */
+    text-align: justify; /* Alinha o texto justificadamente */
+    padding: 10px 0; /* Espaço interno acima e abaixo do texto */
+    border-top: 1px solid #444; /* Linha de separação estilizada */
+    font-style: italic; /* Texto em itálico */
+}
+
+footer p {
+    margin: 5px 0; /* Reduz o espaçamento entre os parágrafos no rodapé */
+}
+
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 80px;
+}
+
+/* Estilo para a imagem do topo na página Home */
+.top-image {
+    width: 100%;
+    height: 300px; /* Altura fixa para a imagem do topo */
+    background-image: url('path/to/your/image.jpg'); /* Substitua pelo caminho correto da imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos adicionais para formatar outras seções, conforme necessário */
