@@ -37,6 +37,8 @@ section {
     text-align: justify; /* Alinha o texto justificado */
 }
 
+
+
 .idealizador {
     color: #666;
     font-size: 12px;
@@ -116,25 +118,13 @@ main {
     margin: 20px auto; /* Centraliza o main no meio da página */
 }
 
-section#historia p {
+section#default p {
     text-align: justify; /* Justifica o texto para uma leitura mais fluida */
     margin-bottom: 15px; /* Adiciona espaço entre os parágrafos */
     line-height: 1.8; /* Aumenta a altura da linha para melhorar a legibilidade */
 }
 
-section#historia h3 {
-    margin-top: 20px;
-    color: #333; /* Escolha uma cor que combine com o design do site */
-    font-size: 1.2em; /* Tamanho maior para subtítulos */
-}
-
-section#programa-de-ensino p {
-    text-align: justify; /* Justifica o texto para uma leitura mais fluida */
-    margin-bottom: 15px; /* Adiciona espaço entre os parágrafos */
-    line-height: 1.8; /* Aumenta a altura da linha para melhorar a legibilidade */
-
-}
-section#programa-de-ensino h3 {
+section#default h3 {
     margin-top: 20px;
     color: #333; /* Escolha uma cor que combine com o design do site */
     font-size: 1.2em; /* Tamanho maior para subtítulos */
@@ -185,6 +175,45 @@ footer p {
     left: 20px;
     width: 80px;
 }
+
+.welcome-section {
+    background: url('assets/capa.png') no-repeat top center/cover; /* Alinha o topo da imagem com o topo da seção */
+    padding: 40px 20px;
+    text-align: center;
+    color: white; /* Garante contraste do texto */
+    position: relative; /* Posicionamento relativo para sobreposição de sombra */
+}
+
+/* Adiciona uma camada escura para contraste do texto */
+.welcome-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 1; /* Garante que a sombra fique abaixo do texto */
+}
+
+/* Estilo do texto para garantir que ele fique visível acima da sombra */
+.welcome-section h2,
+.welcome-section p {
+    position: relative;
+    z-index: 2; /* Mais alto que o ::before para ficar visível */
+}
+
+.welcome-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 
 /* Estilo para a imagem do topo na página Home */
 .top-image {

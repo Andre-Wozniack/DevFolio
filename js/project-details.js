@@ -4,19 +4,19 @@ const projects = [
         id: 1,
         title: "Project One",
         description: "Description for project one.",
-        image: "images/project-1.jpg"
+        image: "assets/project-1.jpg"
     },
     {
         id: 2,
         title: "Project Two",
         description: "Description for project two.",
-        image: "images/project-2.jpg"
+        image: "assets/project-2.jpg"
     },
     {
         id: 3,
         title: "Project Three",
         description: "Description for project three.",
-        image: "images/project-3.jpg"
+        image: "assets/project-3.jpg"
     }
 ];
 

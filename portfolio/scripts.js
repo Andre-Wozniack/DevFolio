@@ -3,12 +3,12 @@ const projects = [
     {
         title: "Project One",
         description: "Description for project one.",
-        image: "images/project-details-large.jpg"
+        image: "assets/project-details-large.jpg"
     },
     {
         title: "Project Two",
         description: "Description for project two.",
-        image: "images/project-details-small.jpg"
+        image: "assets/project-details-small.jpg"
     },
     // Add more projects as needed
 ];
